@@ -12,7 +12,7 @@
                 <input
                     class="mb-2 border"
                     type="text"
-                    name="email[]"
+                    :name="`email[${key}]`"
                     :value="item"
                     :placeholder="`Email address ${key + 1}`"
                     v-on:input="(e) => { props.put(key, e.target.value) }" />
