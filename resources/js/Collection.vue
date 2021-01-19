@@ -11,7 +11,7 @@ export default {
   },
 
   mounted() {
-    this.items = this.default;
+    this.items = this.default ? this.default : [];
   },
 
   render() {
