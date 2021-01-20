@@ -3,6 +3,7 @@
 I like to use Blade as my main template engine and add Vue.js to make an interface dynamic. You don't have to migrate your whole Blade view or component over to Vue.js to leverage the magic of Vue.js. I'll show you how to use Renderless Components (scoped slots) without making a mess of your Blade view and get the best of both worlds!
 
 * [Live Stream 15 January 2021 12:00 CET](https://www.youtube.com/watch?v=50B97mSKz4w)
+* [Live Stream 20 January 2021 14:00 CET](https://www.youtube.com/watch?v=AVgt9VPe11w): Writing tests with Vue Tests Utils and Laravel Dusk
 
 ## Code of Conduct
 
