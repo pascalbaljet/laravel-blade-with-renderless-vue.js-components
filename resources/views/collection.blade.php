@@ -6,7 +6,7 @@
 
     @csrf
 
-    <collection v-slot="props" :default='@json($defaultItems)'>
+    <collection v-slot="props" :default='@json($defaultItems)' dusk="collection-component">
         <div>
             <div v-for="(item, key) in props.items">
                 <input
